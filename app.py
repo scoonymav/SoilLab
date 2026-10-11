@@ -255,7 +255,7 @@ def gambar_kurva_proctor(hasil: pd.DataFrame, pengamatan: calc.PengamatanProctor
 def halaman_dashboard() -> None:
     st.header("Dashboard")
     st.write(
-        "SoilLab membantu mahasiswa Teknik Sipil mengolah data pengujian laboratorium mekanika tanah: "
+        "SoilLab membantu mahasiswa Teknik Sipil UNNES mengolah data pengujian laboratorium mekanika tanah: "
         "memasukkan data hasil penimbangan atau pembacaan, memeriksa kewajarannya, menghitung parameter, "
         "dan mengunduh hasilnya untuk laporan praktikum."
     )
@@ -752,7 +752,7 @@ edisi standar yang berlaku dan prosedur laboratorium.
 # Program utama
 # --------------------------------------------------------------------------
 def main() -> None:
-    st.set_page_config(page_title="SoilLab", page_icon="🧪", layout="wide")
+    st.set_page_config(page_title="SoilLab for Teknik Sipil UNNES", page_icon="🧪", layout="wide")
     inisialisasi_state()
 
     with st.sidebar:
