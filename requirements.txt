@@ -1,0 +1,7 @@
+# Dependensi SoilLab. Pasang dari folder utama proyek dengan:
+#   python -m pip install -r requirements.txt
+# Gunakan Python 3.10 atau lebih baru.
+streamlit>=1.36,<2.0
+pandas>=2.0,<3.0
+numpy>=1.26,<3.0
+matplotlib>=3.7,<4.0
